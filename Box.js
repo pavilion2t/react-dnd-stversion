@@ -1,13 +1,10 @@
 
-  ```
-  import React, { Component} from 'react';
+import React, { Component} from 'react';
 import { DragSource } from 'react-dnd';
 
-
+//这里表示拖放源的样式
 const styles = {
-
   backgroundColor: 'white',
-
   cursor: 'move',
   color:"#666"
 };

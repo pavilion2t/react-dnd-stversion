@@ -1,0 +1,11 @@
+.draggable-ctrl {
+  cursor: -webkit-grab;
+}
+
+.draggable-ctrl.dragging {
+  cursor: -webkit-grabbing;
+}
+
+.draggable-ctrl:hover {
+  background: #fff;
+}

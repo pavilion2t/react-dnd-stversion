@@ -1,0 +1,1 @@
+export default (ctrls, hover) => hover ? ctrls.indexOf(hover) : ctrls.length

@@ -36,7 +36,7 @@ class Box extends Component{
       img.onload = () => this.props.connectDragPreview(img);
       img.src = require("../../img/dpImg.png")
   }
-  
+
   render() {
     const { isDragging, connectDragSource } = this.props;
     const { name } = this.props;
@@ -50,5 +50,3 @@ class Box extends Component{
   }
 }
 export default DragSource("box", boxSource, collect)(Box);
-
-```

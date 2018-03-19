@@ -8,12 +8,6 @@ import HTML5Backend from 'react-dnd-html5-backend'
 import BoardSquare from './BoardSquare'
 class Board extends Component {
 
-  handleSquareClick(toX, toY) {
-    if (canMoveKnight(toX, toY)) {
-      moveKnight(toX, toY);
-    }
-  }
-
   renderSquare(i) {
     const x = i % 8;
     const y = Math.floor(i / 8);
